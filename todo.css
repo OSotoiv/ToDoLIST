@@ -1,0 +1,48 @@
+li {
+    font-size: 1.5em;
+    margin-right: 10px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.done {
+    text-decoration: line-through rgba(172, 13, 13, 0.881) double;
+}
+
+form {
+    font-weight: 700;
+    text-align: center;
+}
+
+form button {
+    color: azure;
+    border: none;
+    border-radius: 1em;
+    background-color: rgba(31, 72, 31, 0.657);
+}
+
+div button {
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    color: rgba(172, 13, 13, 0.881);
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+
+#list {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
